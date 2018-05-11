@@ -1,0 +1,40 @@
+body {background-color: rgb(235, 235, 224);}
+
+.navbar {margin-bottom:0px;
+border-radius: 0;}
+
+.jumbotron {background-image: url(Leeds-skyline.jpg);
+background-size: cover;
+min-height: 300px;
+max-height: 300px;
+margin-bottom: 30px;
+margin-top: 0px;
+padding-top:0px; }
+
+.jumbotron h1 {margin-top:60px;
+color: white;
+font-size: 50px;
+margin-bottom: 0px;
+}
+
+@media(min-width: 992px) {
+  .jumbotron h1 {
+    margin-top:140px;
+    font-size: 120px;
+  }
+}
+
+#well-id { padding: 0;
+overflow: hidden;
+background-color: white;}
+
+.nightlife-images {min-height:200px;}
+
+.container-subheadings {font-weight: bold;
+margin-top: 10px;
+margin-left: 10px;
+color: black;}
+
+.container-text {text-align: justify;
+margin-left: 10px;
+margin-right: 10px;}

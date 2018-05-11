@@ -1,0 +1,364 @@
+body {background-color: rgb(235, 235, 224);}
+
+.navbar {margin-bottom:0px;
+    border-radius: 0;}
+
+.jumbotron {background-image: url(Leeds-skyline.jpg);
+    background-size: cover;
+    min-height: 300px;
+    max-height: 300px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top:0px; }
+
+.jumbotron h1 {margin-top:60px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+@media(min-width: 992px) {
+    .jumbotron h1 {
+        margin-top:20px;
+        font-size: 120px;
+    }
+}
+
+#well-id {background-color: white;
+    padding: 0;
+    overflow: hidden;}
+
+.main-images {margin-bottom: 12px;
+    min-height: 280px;}
+
+.container-subheadings {display:inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;}
+
+.container-text {text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;}
+
+#photo-container-subheading {text-align: center;
+    font-weight: bold;
+    margin-top: 10px;}
+
+#map-well{padding: 0;
+    overflow: hidden;}
+
+#map {height: 400px;
+    width: 100%;}
+
+#newsletter-well {padding: 0;
+    overflow: hidden;}
+
+#newsletter-header-container {width: 100%;
+    height:35px;
+    background-color: rgb(51, 102, 255);
+}
+
+#newsletter-header {margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;}
+
+#newsletter-signup-container {min-height: 190px;
+    background-color:rgb(179, 198, 255);} 
+
+@media only screen and (max-width: 400px) {
+    #newsletter-signup-container {min-height: 230px;   
+    }
+}
+
+#newsletter-container-text {margin-left:10px;
+    margin-right: 25px;
+    position:absolute;
+    margin-top: 15px;
+    display: inline-block;}
+
+.mailing-form {display: block;
+    margin-left:auto;
+    margin-right: auto;}
+
+@media only screen and (max-width: 400px) {
+    .mailing-form {margin-top: 30px;   
+    }
+}
+
+.mailing-form2 {display: block;
+    margin-left:auto;
+    margin-right: auto;}
+
+@media only screen and (max-width: 400px) {
+    .mailing-form {margin-top: 30px;   
+    }
+}
+
+#submit-button{display:block;
+    margin:auto;}
+
+#messageus-well {padding: 0;
+    overflow: hidden;}
+
+#message-us-header-container {height:35px;
+    background-color: rgb(51, 102, 255);}
+
+#message-us-header {font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 3px;}
+
+#message-us-container {
+    background-color:rgb(179, 198, 255);
+    margin:auto;}
+
+@media only screen and (max-width: 900px) {
+    #message-us-container {min-height: 230px;   
+    }
+}
+
+.message-us {
+    width:70%;
+    margin:0 auto;
+    display:block;
+    position: relative;
+    padding: 10px 0;
+}
+
+#message-us-form {
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+#message-us-form2 {
+    width:48%;
+    margin-left: 4%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#message-box {display: block;
+    width:100%;
+    margin: 0 auto;
+    height:75px;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    padding: 2px 4px;
+}
+
+#submit-button2 {display:block;
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    #message-us-form {display:block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    #message-us-form2 {
+        display: block;
+        margin:auto;
+    margin-top: 20px;
+        width: 100%;
+    }
+    }
+
+#footer-well {background-color: black;
+    padding: 0;
+    overflow: hidden;}
+
+#footer-header-container{
+    background-color: black;}
+
+#footer-heading {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;}
+
+#lower-footer-container {}
+
+#visit-leeds {}
+
+.footer-text {color: white;
+}
+
+.footer-text2{color: white;
+    display:block;
+    margin:auto;
+    margin-bottom: 10px;}
+
+#leedscitycouncil-logo {
+    border-radius: 5px;}
+
+@media only screen and (max-width: 200px) {
+    #leedscitycouncil-logo {max-height: 40px;
+    }
+}
+    
+#leedsinspired-logo {
+    border-radius:5px;}
+
+#leedslist-logo {
+    border-radius:5px;}
+
+
+
+#rows-of-photos {margin-bottom: 10px;}
+
+#photo-gallery {min-height: 70px;}
+
+#colums-of-photos {margin: 0px;
+    padding-bottom: 10px;}
+
+#slideshow-select {margin: 0px;
+    padding:0px;
+    overflow: hidden;}
+
+* {
+    box-sizing: border-box;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.demo {opacity: 0.6;
+    height:100px;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.clear {
+    clear: both;
+}
